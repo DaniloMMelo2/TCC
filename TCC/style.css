@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    overflow-x: hidden;
+}
+.logo {
+    padding-left: 4rem;
+}
+nav{
+    background: rgba(41,93,183,1);
+background: linear-gradient(0deg, rgba(41,93,183,1) 0%, rgba(53,102,187,1) 100%);
+position: relative;
+z-index: 9;
+}
+
+div.texto{
+    text-align: center;
+    margin-bottom: 3rem;
+    padding-top: 2rem;
+}
+a.nav-link{
+    color: white;
+    font-size: 22px;
+    gap: 0.5rem;
+    letter-spacing: 0.2rem;
+}
+.slogan {
+    text-align: center;
+    
+}
+
+
+span.tour {
+     color: rgb(41, 93, 183);
+    font-size: 60px;
+    letter-spacing: 0.5rem; 
+    
+}
+span.maraca {
+    color: rgb(255, 31, 55);
+    font-size: 60px;
+    letter-spacing: 0.5rem;
+}
+span.white {
+    color: rgb(0, 0, 0);
+    letter-spacing: 0.1rem;
+}
+
+
+.banner img {
+    width: 100%;
+    height: 100%;
+}
+div img.app {
+    margin-left: 4rem;
+    width: 70%;
+}
+
+main section {
+    width: 100vw;
+}
+
+main section article,
+main section div.banner {
+    width: 50vw;
+    padding: 4rem;
+    background-color: transparent;
+
+}
+
+
+/* DIVISOR */
+.website-divider-container-812783 {
+    overflow:hidden;
+    position: relative;
+    height: 15%;
+  }
+  
+  .divider-img-812783
+  {
+      position: absolute;
+      width: 194%;
+      height: 62px;
+      z-index: 1;
+      transform: scale(1, -1);
+      top:0px;
+      left: 0px;
+      fill: rgb(41, 93, 183)
+  }
+
+  /* MAIN */
+  .custom-shape-divider-top-1700577371 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+/* FIM DIVISOR */
+
+
+/* BACKGROUND-IMAGEM-SECTION-ARTICLE-BANNER */
+
+/* main.container-fluid section:first-child {
+    background: url('img/triangleDivider.svg') cover;
+    
+} */
